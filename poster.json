@@ -1,0 +1,9 @@
+{
+    "mapp": {
+        "app_id": "小程序app_id,可选",
+        "app_secret": "小程序app_secret,可选"
+    },
+    "output_dir": "output/",
+    "listen_port": "2020",
+    "fontfile_path": "./resources/font.ttc"
+}
