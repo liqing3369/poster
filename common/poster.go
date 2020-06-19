@@ -106,13 +106,13 @@ func DrawPoster(s Style) (fileName string, err error) {
 		draw.Src)
 
 	// 绘制边框
-	border, err := GetBorder()
-	if err != nil {
-		log.Println("获取边框失败", err)
-		return "", err
-	}
-	p = Padding{20, 20, 20, 20} // w*240/1080
-	drawBorder(rgba, border, p, s.BorderColor)
+	//border, err := GetBorder()
+	//if err != nil {
+	//	log.Println("获取边框失败", err)
+	//	return "", err
+	//}
+	//p = Padding{20, 20, 20, 20} // w*240/1080
+	//drawBorder(rgba, border, p, s.BorderColor)
 
 	// 绘制文字
 	texts := []string{}
